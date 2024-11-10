@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  font-family: sans-serif;
+  background: linear-gradient(to top, #e30000, #290000);
+}
+
+.container-fluid{
+  width:100%;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+  h1,h2{
+    font-size: 3em;
+    text-align: center;
+    font-family: "Trirong", serif;
+    color: gold;
+  }
+
+  .bg_pic{
+    min-height: 100vh;
+    background-position: center;
+    list-style-position: center;
+    background-size: cover;
+  }
+  
+  /* עושה שלטקסט יהיה רקע מושחר שקוף */
+  .carousel-item .carousel-caption{
+    background: rgba(0, 0, 0, 0.705);
+    max-width: 300px;
+    margin:0 auto;
+  }
+
+  main .container-fluid{
+    min-height: 700px;
+  }
+
+  main .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+  }
+
+  main h1{
+    margin-bottom: 50px;
+  }
+  
+  main .box{
+    width: 40%;
+    text-align: center;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0, 0, 0, 0);
+    padding: 8px;
+    background-color: white;
+  }
+
+  main .box :hover{
+    background:red;
+    transition: 750ms;
+    transform: scale(1.25,1.25);
+  }
+  
+  .promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+ 
+  @media screen and (max-width:768px) {
+  
+    main .box{
+      width:100%;
+      margin: 50px 50px;
+
+    }
+  
+  }
+
+
+
+

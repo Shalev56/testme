@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="help.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="navbar navbar-expand-md navbar-light p-0 m-0">
+      <button class="navbar-toggler burger" id="burger_btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container top_nav">
+        <nav id="nav_open" class="collapse navbar-collapse">
+          <a href="index.html" class="nav-link">HOME<i class="fa fa-home py-1"
+            aria-hidden="true"></i></a>            
+          <a href="about.html" class="nav-link">ABOUT<i class="fa fa-university py-1"
+            aria-hidden="true"></i></a>         
+            <a href="media.html" class="nav-link">MEDIA<i class="fa fa-picture-o py-1"
+              aria-hidden="true"></i></a>          
+            <a href="faq.html" class="nav-link">FAQ<i class="fa fa-question-circle py-1"
+              aria-hidden="true"></i></a>          
+            <a href="contact.html" class="nav-link">CONTACT<i class="fa fa-address-book py-1"
+              aria-hidden="true"></i></a>     
+        </nav>
+      </div>
+      </div>
+</header>
+
+      
+      <main class="container-fluid">
+        <div class="container text-center my-3" data-aos="fade-up">
+          <div class="brdr border border-light border-2 p-1">
+          <h1>Contact Us</h1>
+          <form action="thank_you.html" onsubmit="return validateForm()">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" placeholder="Write name here..." name="name" required><br><br>
+      
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" placeholder="Write email here..." name="email" required><br><br>
+      
+              <label for="notes">Notes:</label><br>
+              <textarea id="notes" placeholder="Write notes here..." name="notes" rows="6" cols="24"></textarea><br><br>
+      
+              <input id="Btn" type="submit" value="Submit">
+          </form>
+          </div>
+        </div>
+      </main>    
+        
+      <footer class="container-fluid">
+        <div class="container">
+            <p>&copy; All rights reserved to Shalexander</p>
+            <a href="https://www.instagram.com/universalpictures/?hl=he"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://x.com/universalpics"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/UniversalPicturesMiddleEast/?brand_redir=215204471085"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCq0OueAsdxH6b8nyAspwViw"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
+          </div>
+      </footer>
+      
+      </body>
+      <script src="contact.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      </html>

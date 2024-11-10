@@ -1,0 +1,37 @@
+
+function declareBtns(){
+    let burger_btn = document.querySelector("#burger_btn");
+    let nav_open = document.querySelector("#nav_open");
+    burger_btn.addEventListener("click",function(){
+      //
+      (nav_open.style.display != "block") ?  nav_open.style.display = "block" :  nav_open.style.display = "none";
+      // if(nav_open.style.display != "block"){
+      //   nav_open.style.display = "block";
+      // }
+      // else{
+      //   nav_open.style.display = "none";
+      // }
+    })
+  }
+  
+  declareBtns();
+
+
+function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var notes = document.getElementById("notes").value;
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (name == "" || email == "" || notes == "") {
+        alert("All fields must be filled out");
+        return false;
+    }
+
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address");
+        return false;
+    }
+
+    return true;
+}

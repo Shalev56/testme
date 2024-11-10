@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background: linear-gradient(to top, #e30000, #290000);
+}
+
+.container-fluid{
+  width:100%;
+}
+
+
+  h1,h2{
+    font-size: 3em;
+    text-align: center;
+    font-family: "Trirong", serif;
+    color: gold;
+  }
+
+  .accordion {
+    max-width: 600px;
+    margin: 33px auto;
+  }
+  
+  .accordion-item {
+    border: 2px solid rgb(0, 0, 0);
+    color:  gold;
+    background-color: rgba(84, 5, 5, 0.404);
+  }
+  
+  .accordion-button{
+    background-color:rgba(92, 12, 12, 0.418);
+    color: gold;
+    background: #c26a6a;  
+  }
+
+  main{
+    min-height: 600px;
+    padding:8px;
+  }

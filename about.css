@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background: linear-gradient(to top, #e30000, #290000);
+}
+
+.container-fluid{
+  width:100%;
+}
+
+.container{
+  width: 100%;
+}
+
+  h1,h2{
+    font-size: 3em;
+    text-align: center;
+    font-family: "Trirong", serif;
+    color:gold;
+  }
+
+  section{
+    min-height: 800px;
+    padding:100px;
+  }
+  .pic0{
+    float: left;
+  }
+  
+  .pic1{
+    float: left;
+  }
+
+  .brdr{
+    max-width: 400px; 
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgb(85, 78, 78);
+    color: #feb47b;
+  }
+
+  #more {
+    display: none;
+  }
+  #more2 {
+    display: none;
+  }
+  
+  
+  #myBtn{
+    background-color: rgb(253, 165, 57);
+    border-radius: 12px;
+  }
+  #myBtn2{
+    background-color: rgb(253, 165, 57);
+    border-radius: 12px;
+  }
+  
